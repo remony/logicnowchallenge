@@ -35,4 +35,12 @@ public class Contact {
     public void setId(int id) {
         this.id = id;
     }
+
+    public void save()  {
+        DbConnection.saveContact(this.id, this.firstName, this.lastName);
+    }
+
+    public void delete()    {
+        DbConnection.deleteContact(this.id);
+    }
 }
