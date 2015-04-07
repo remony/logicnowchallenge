@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="logicnow:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/logicnow_jar</output-path>
+    <root id="archive" name="logicnow.jar">
+      <element id="module-output" name="logicnow" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.xerial/sqlite-jdbc/3.8.7/b50c89d50e9b9079fff5cd93e5d027d0a8b68aa6/sqlite-jdbc-3.8.7.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

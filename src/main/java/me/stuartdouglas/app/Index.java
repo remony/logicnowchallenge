@@ -1,28 +1,20 @@
-package me.stuartdouglas.app; /**
- * Created by remon on 02/04/2015.
- */
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.sql.*;
+package me.stuartdouglas.app;
+
 import java.util.*;
 
-import me.stuartdouglas.app.DbConnection;
-
-public class Index {
+public class Index extends DbConnection {
 
     public static void main(String[] args)   {
         Index index = new Index();
         index.run();
     }
 
-    public void run()    {
 
+    //Main menu loop
+    private void run()    {
         while(true) {
             int choice = 0;
-
             Scanner input = new Scanner(System.in);
-
             while (choice != 3) {
                 System.out.println("1: Add new contact\n2: Edit existing contact\n3: quit");
                 choice = input.nextInt();
@@ -41,10 +33,11 @@ public class Index {
                 }
 
             }
-
         }
     }
 
+
+    //Creates a new contact and inserts it to the database.
     private void AddNewContact() {
         String firstName = null;
         String lastName = null;
@@ -63,39 +56,46 @@ public class Index {
 
         if (validInput(firstName))
         {
-            DbConnection.createContact(firstName, lastName);
+            createContact(firstName, lastName);
         }   else    {
             System.out.println("something was empty");
         }
     }
 
-
     //This method handles editing existing contacts
     private void editExisting() {
-        displayContacts(getContacts());
+        displayContacts(getAllContacts());
         Scanner input = new Scanner(System.in);
         System.out.println("Please enter an ID of a contact");
         int choice = 0;
-        int id = input.nextInt();
+        int id = Integer.parseInt(input.nextLine());
 
-        if (getContact(id) != null) {
+        if (checkIfContactExists(id)) {
 
             Contact contact = getContact(id);
 
             while (choice != 6) {
+                String firstname = null;
+                String lastname = null;
                 displayContact(contact);
 
                 System.out.println("1: Change first name\n2: Edit second name\n3: Save\n4: Delete");
-                choice = input.nextInt();
+                choice = Integer.parseInt(input.nextLine());
 
                 switch (choice) {
                     case 1:
-                        String firstname = input.nextLine();
-                        contact.setFirstName(firstname);
+                        System.out.print("\nFirst name [" + contact.getFirstName() + "]: ");
+                        firstname = input.nextLine();
+                        if (validInput(firstname))  {
+                            contact.setFirstName(firstname);
+                        }
                         break;
                     case 2:
-                        String lastname = input.nextLine();
-                        contact.setLastName(lastname);
+                        System.out.print("\nLast name [" + contact.getLastName() + "]: ");
+                        lastname = input.nextLine();
+                        if(validInput(lastname))    {
+                            contact.setLastName(lastname);
+                        }
                         break;
                     case 3:
                         contact.save();
@@ -115,51 +115,38 @@ public class Index {
         }   else    {
             System.out.println("ID " + id + " does not exist");
         }
+
     }
 
+    //Checks if the contact is valid
+    public boolean checkIfContactExists(int id)   {
+        Contact contact = getContact(id);
 
-
+        if(!validInput(contact.getFirstName()))  {
+            return false;
+        }
+        if (!validInput(contact.getLastName()))  {
+            return false;
+        }
+        return true;
+    }
     //Returns true if the value is not empty or contains just spaces
     public boolean validInput(String input) {
         return  !(input == null || input.trim().length() == 0);
     }
 
-    public LinkedList<Contact> getContacts(){
-        return DbConnection.getAllContacts();
-    }
-
-    public Contact getContact(int id){
-
-        Contact contact = DbConnection.getContact(id);
-
-        if(!validInput(contact.getFirstName()))  {
-            return null;
-        }
-        if (!validInput(contact.getLastName()))  {
-            return null;
-        }
-        return contact;
-    }
-
-
-    public void displayContacts(LinkedList contacts)  {
+    //displays a list of given contacys
+    private void displayContacts(LinkedList<Contact> contacts)  {
         ListIterator<Contact> listIterator = contacts.listIterator();
         System.out.println("There is " + contacts.size() + " contacts");
         while (listIterator.hasNext()) {
             Contact c = listIterator.next();
-            System.out.println(listIterator.nextIndex() + ": " + c.getFirstName() + " " + c.getLastName() + " id: " + c.getId());
+            System.out.println("ID " + c.getId() + ": " + c.getFirstName() + " " + c.getLastName());
         }
     }
 
-    public void displayContact (Contact contact)   {
+    //Displays a single contact
+    private void displayContact(Contact contact)   {
         System.out.println("First name: " + contact.getFirstName()+ "\nLast name: " + contact.getLastName());
     }
-
-
-
-
-
-
-
-
 }

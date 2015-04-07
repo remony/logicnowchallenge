@@ -1,7 +1,10 @@
 apply plugin: 'java'
+apply plugin: 'application'
 
 sourceCompatibility = 1.5
 version = '1.0'
+
+mainClassName = "me.stuartdouglas.app.Index"
 
 repositories {
     mavenCentral()
@@ -10,4 +13,18 @@ repositories {
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.11'
     compile 'org.xerial:sqlite-jdbc:3.8.7'
+}
+
+jar {
+    from {
+        configurations.compile.collect {
+            it.isDirectory() ? it : zipTree(it)
+        }
+    }
+
+    manifest {
+        attributes(
+                "Main-Class":  "me.stuartdouglas.app.Index"
+        )
+    }
 }

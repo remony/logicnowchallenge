@@ -2,7 +2,6 @@ import junit.framework.TestCase;
 import me.stuartdouglas.app.Contact;
 import me.stuartdouglas.app.DbConnection;
 import me.stuartdouglas.app.Index;
-import org.junit.Assert;
 
 import java.util.ListIterator;
 
@@ -63,5 +62,7 @@ public class MainTest extends TestCase {
     public void testDatabaseAddContact()    {
         assertTrue(DbConnection.createContact("John", "Doe"));
     }
+
+
 
 }

@@ -1,9 +1,4 @@
-/**
- * Created by remon on 03/04/2015.
- */
 package me.stuartdouglas.app;
-
-import java.util.ArrayList;
 
 public class Contact {
     private String firstName = null;

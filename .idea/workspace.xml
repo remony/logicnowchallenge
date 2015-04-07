@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="logicnow:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="aa778f88-533a-43a0-b1e0-ec1da47a8c75" name="Default" comment="" />
     <ignored path="logicnow.iws" />
@@ -17,6 +25,12 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="FLATTEN" value="false" />
+    <option name="GROUP_BY_TYPE" value="true" />
+    <option name="SORT_CHILDREN" value="false" />
+    <option name="SHOW_TABLE_CONSTRAINTS" value="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="ExportTestResults" outputFolder="$PROJECT_DIR$" openResultsInEditor="true" userTempatePath="" />
@@ -37,6 +51,20 @@
                 <option name="myItemId" value="logicnow" />
                 <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
               </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="Run Configurations" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.RunConfigurationsNode" />
+              </PATH_ELEMENT>
+            </PATH>
+            <PATH>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="logicnow" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
+              </PATH_ELEMENT>
             </PATH>
             <PATH>
               <PATH_ELEMENT>
@@ -50,24 +78,6 @@
               <PATH_ELEMENT>
                 <option name="myItemId" value="Tasks" />
                 <option name="myItemType" value="com.intellij.openapi.externalSystem.view.TasksNode" />
-              </PATH_ELEMENT>
-            </PATH>
-            <PATH>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="" />
-                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
-              </PATH_ELEMENT>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="logicnow" />
-                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
-              </PATH_ELEMENT>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="Tasks" />
-                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.TasksNode" />
-              </PATH_ELEMENT>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="other" />
-                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.TasksNode$1" />
               </PATH_ELEMENT>
             </PATH>
           </tree_state>
@@ -80,35 +90,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/MainTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="62" column="25" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.34196892">
+              <caret line="51" column="34" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#895#896#0" expanded="true" />
-                <element signature="e#965#966#0" expanded="true" />
-                <element signature="e#1622#1623#0" expanded="true" />
-                <element signature="e#1688#1689#0" expanded="true" />
-                <element signature="e#1735#1736#0" expanded="true" />
-                <element signature="e#1804#1805#0" expanded="true" />
+                <element signature="e#870#871#0" expanded="true" />
+                <element signature="e#940#941#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Index.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Index.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/me/stuartdouglas/app/Index.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7716263">
-              <caret line="115" column="63" selection-start-line="115" selection-start-column="63" selection-end-line="115" selection-end-column="63" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="135" column="5" selection-start-line="135" selection-start-column="5" selection-end-line="135" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3393#3394#0" expanded="true" />
-                <element signature="e#3463#3464#0" expanded="true" />
-                <element signature="e#3510#3511#0" expanded="true" />
-                <element signature="e#3562#3563#0" expanded="true" />
+                <element signature="e#4077#4078#0" expanded="true" />
+                <element signature="e#4147#4148#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -118,55 +121,25 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/me/stuartdouglas/app/DbConnection.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="161" column="19" selection-start-line="161" selection-start-column="19" selection-end-line="161" selection-end-column="19" />
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#200#201#0" expanded="true" />
-                <element signature="e#241#242#0" expanded="true" />
-                <marker date="1428345697741" expanded="true" signature="516:561" placeholder="select id, f..contact..." />
-                <marker date="1428345697741" expanded="true" signature="1598:1654" placeholder="select id, f..contact..." />
-                <marker date="1428345697741" expanded="true" signature="1598:1655" placeholder="select id, f..contact..." />
-                <marker date="1428345697741" expanded="true" signature="2600:2631" placeholder="update conta..." />
-                <marker date="1428345697741" expanded="true" signature="2600:2632" placeholder="update conta..." />
-                <marker date="1428345697741" expanded="true" signature="2600:2646" placeholder="update conta..." />
-                <marker date="1428345697741" expanded="true" signature="2600:2649" placeholder="update conta..." />
-                <marker date="1428345697741" expanded="true" signature="2600:2659" placeholder="update conta..." />
-                <marker date="1428345697741" expanded="true" signature="2600:2660" placeholder="update conta..." />
-                <marker date="1428345697741" expanded="true" signature="2600:2661" placeholder="update conta..." />
-                <marker date="1428345697741" expanded="true" signature="2600:2662" placeholder="update conta..." />
-                <marker date="1428345697741" expanded="true" signature="3415:3447" placeholder="DELETE FROM ..." />
-                <marker date="1428345697741" expanded="true" signature="4149:4187" placeholder="INSERT INTO ..." />
-                <marker date="1428345697741" expanded="true" signature="4149:4206" placeholder="INSERT INTO ..." />
+                <marker date="1428358168093" expanded="true" signature="396:441" placeholder="select id, f..contact..." />
+                <marker date="1428358168093" expanded="true" signature="1478:1534" placeholder="select id, f..contact..." />
+                <marker date="1428358168093" expanded="true" signature="1478:1535" placeholder="select id, f..contact..." />
+                <marker date="1428358168093" expanded="true" signature="2480:2511" placeholder="update conta..." />
+                <marker date="1428358168093" expanded="true" signature="2480:2512" placeholder="update conta..." />
+                <marker date="1428358168093" expanded="true" signature="2480:2526" placeholder="update conta..." />
+                <marker date="1428358168093" expanded="true" signature="2480:2529" placeholder="update conta..." />
+                <marker date="1428358168093" expanded="true" signature="2480:2539" placeholder="update conta..." />
+                <marker date="1428358168093" expanded="true" signature="2480:2540" placeholder="update conta..." />
+                <marker date="1428358168093" expanded="true" signature="2480:2541" placeholder="update conta..." />
+                <marker date="1428358168093" expanded="true" signature="2480:2542" placeholder="update conta..." />
+                <marker date="1428358168093" expanded="true" signature="3295:3327" placeholder="DELETE FROM ..." />
+                <marker date="1428358168093" expanded="true" signature="4029:4067" placeholder="INSERT INTO ..." />
+                <marker date="1428358168093" expanded="true" signature="4029:4086" placeholder="INSERT INTO ..." />
               </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Contact.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/me/stuartdouglas/app/Contact.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-              <folding>
-                <element signature="e#712#713#0" expanded="true" />
-                <element signature="e#792#793#0" expanded="true" />
-                <element signature="e#823#824#0" expanded="true" />
-                <element signature="e#874#875#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="50" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
           </provider>
         </entry>
       </file>
@@ -174,7 +147,47 @@
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/settings.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gradlew.bat" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gradlew.bat">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gradlew" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gradlew">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gradle.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gradle.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -227,14 +240,19 @@
           <value>
             <list>
               <ExternalTaskPojo>
-                <option name="description" value="Assembles classes 'main'." />
+                <option name="description" value="Displays the insight into a specific dependency in root project 'logicnow'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="classes" />
+                <option name="name" value="dependencyInsight" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Generates Javadoc API documentation for the main source code." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Bundles the project as a distribution." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="distZip" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs the unit tests." />
@@ -247,14 +265,14 @@
                 <option name="name" value="clean" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Processes resources 'main:resources'." />
+                <option name="description" value="Installs the project as a JVM application along with libs and OS specific scripts." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="processResources" />
+                <option name="name" value="installApp" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Compiles Java source 'test:java'." />
+                <option name="description" value="Initializes a new Gradle build. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileTestJava" />
+                <option name="name" value="init" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles a jar archive containing the main classes." />
@@ -262,14 +280,14 @@
                 <option name="name" value="jar" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Creates OS specific scripts to run the project as a JVM application." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="startScripts" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="build" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes resources 'test:resources'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="processTestResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project and all projects that depend on it." />
@@ -277,9 +295,84 @@
                 <option name="name" value="buildDependents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of root project 'logicnow'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles Java source 'main:java'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Gradle wrapper files. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="wrapper" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs the project as a distribution as-is." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="installDist" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles classes 'main'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes JVM resources 'main:resources'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs this project as a JVM application" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="run" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles Java source 'test:java'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes JVM resources 'test:resources'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from root project 'logicnow'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by root project 'logicnow'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the main distributions" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="assembleMainDist" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project and all projects it depends on." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in root project 'logicnow'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles classes 'test'." />
@@ -292,14 +385,14 @@
                 <option name="name" value="check" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Compiles Java source 'main:java'." />
+                <option name="description" value="Bundles the project as a distribution." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileJava" />
+                <option name="name" value="distTar" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Assembles the outputs of this project." />
+                <option name="description" value="Displays the properties of root project 'logicnow'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="assemble" />
+                <option name="name" value="properties" />
               </ExternalTaskPojo>
             </list>
           </value>
@@ -308,7 +401,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="2856025973692" />
+        <entry key="$PROJECT_DIR$" value="2856369976216" />
         <entry key="$USER_HOME$/games/shiroRuins" value="7129665966241" />
       </map>
     </option>
@@ -336,90 +429,60 @@
               <option name="name" value="logicnow" />
               <option name="projectBuildClasspath">
                 <list>
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/announce" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/antlr" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/base-services" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/base-services-groovy" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/build-comparison" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/build-init" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/cli" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/code-quality" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/core" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/core-impl" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/cpp" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/diagnostics" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/ear" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/ide" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/internal-integ-testing" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/internal-testing" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/ivy" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/jacoco" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/javascript" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/jetty" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/language-base" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/language-jvm" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/launcher" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/maven" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/messaging" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/native" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/open-api" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/osgi" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/plugin-use" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/plugins" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/publish" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/reporting" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/resources" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/resources-http" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/scala" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/signing" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/sonar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/tooling-api" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/ui" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/wrapper" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/ant-1.9.3.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/ant-launcher-1.9.3.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/gradle-base-services-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/gradle-base-services-groovy-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/gradle-cli-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/gradle-core-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/gradle-docs-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/gradle-launcher-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/gradle-messaging-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/gradle-native-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/gradle-open-api-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/gradle-resources-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/gradle-tooling-api-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/gradle-ui-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/gradle-wrapper-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/groovy-all-2.3.3.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/plugins/ant-antlr-1.9.3.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/plugins/gradle-announce-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/plugins/gradle-antlr-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/plugins/gradle-build-comparison-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/plugins/gradle-build-init-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/plugins/gradle-code-quality-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/plugins/gradle-core-impl-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/plugins/gradle-cpp-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/plugins/gradle-diagnostics-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/plugins/gradle-ear-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/plugins/gradle-ide-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/plugins/gradle-ivy-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/plugins/gradle-jacoco-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/plugins/gradle-javascript-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/plugins/gradle-jetty-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/plugins/gradle-language-base-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/plugins/gradle-language-jvm-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/plugins/gradle-maven-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/plugins/gradle-osgi-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/plugins/gradle-plugin-use-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/plugins/gradle-plugins-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/plugins/gradle-publish-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/plugins/gradle-reporting-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/plugins/gradle-resources-http-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/plugins/gradle-scala-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/plugins/gradle-signing-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/plugins/gradle-sonar-2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="C:/gradle-2.3/lib/ant-1.9.3.jar" />
+                  <option value="C:/gradle-2.3/lib/ant-launcher-1.9.3.jar" />
+                  <option value="C:/gradle-2.3/lib/gradle-base-services-2.3.jar" />
+                  <option value="C:/gradle-2.3/lib/gradle-base-services-groovy-2.3.jar" />
+                  <option value="C:/gradle-2.3/lib/gradle-cli-2.3.jar" />
+                  <option value="C:/gradle-2.3/lib/gradle-core-2.3.jar" />
+                  <option value="C:/gradle-2.3/lib/gradle-docs-2.3.jar" />
+                  <option value="C:/gradle-2.3/lib/gradle-launcher-2.3.jar" />
+                  <option value="C:/gradle-2.3/lib/gradle-messaging-2.3.jar" />
+                  <option value="C:/gradle-2.3/lib/gradle-model-core-2.3.jar" />
+                  <option value="C:/gradle-2.3/lib/gradle-model-groovy-2.3.jar" />
+                  <option value="C:/gradle-2.3/lib/gradle-native-2.3.jar" />
+                  <option value="C:/gradle-2.3/lib/gradle-open-api-2.3.jar" />
+                  <option value="C:/gradle-2.3/lib/gradle-resources-2.3.jar" />
+                  <option value="C:/gradle-2.3/lib/gradle-tooling-api-2.3.jar" />
+                  <option value="C:/gradle-2.3/lib/gradle-ui-2.3.jar" />
+                  <option value="C:/gradle-2.3/lib/gradle-wrapper-2.3.jar" />
+                  <option value="C:/gradle-2.3/lib/groovy-all-2.3.9.jar" />
+                  <option value="C:/gradle-2.3/lib/plugins/gradle-announce-2.3.jar" />
+                  <option value="C:/gradle-2.3/lib/plugins/gradle-antlr-2.3.jar" />
+                  <option value="C:/gradle-2.3/lib/plugins/gradle-build-comparison-2.3.jar" />
+                  <option value="C:/gradle-2.3/lib/plugins/gradle-build-init-2.3.jar" />
+                  <option value="C:/gradle-2.3/lib/plugins/gradle-code-quality-2.3.jar" />
+                  <option value="C:/gradle-2.3/lib/plugins/gradle-cunit-2.3.jar" />
+                  <option value="C:/gradle-2.3/lib/plugins/gradle-dependency-management-2.3.jar" />
+                  <option value="C:/gradle-2.3/lib/plugins/gradle-diagnostics-2.3.jar" />
+                  <option value="C:/gradle-2.3/lib/plugins/gradle-ear-2.3.jar" />
+                  <option value="C:/gradle-2.3/lib/plugins/gradle-ide-2.3.jar" />
+                  <option value="C:/gradle-2.3/lib/plugins/gradle-ide-native-2.3.jar" />
+                  <option value="C:/gradle-2.3/lib/plugins/gradle-ivy-2.3.jar" />
+                  <option value="C:/gradle-2.3/lib/plugins/gradle-jacoco-2.3.jar" />
+                  <option value="C:/gradle-2.3/lib/plugins/gradle-javascript-2.3.jar" />
+                  <option value="C:/gradle-2.3/lib/plugins/gradle-jetty-2.3.jar" />
+                  <option value="C:/gradle-2.3/lib/plugins/gradle-language-groovy-2.3.jar" />
+                  <option value="C:/gradle-2.3/lib/plugins/gradle-language-java-2.3.jar" />
+                  <option value="C:/gradle-2.3/lib/plugins/gradle-language-jvm-2.3.jar" />
+                  <option value="C:/gradle-2.3/lib/plugins/gradle-language-native-2.3.jar" />
+                  <option value="C:/gradle-2.3/lib/plugins/gradle-language-scala-2.3.jar" />
+                  <option value="C:/gradle-2.3/lib/plugins/gradle-maven-2.3.jar" />
+                  <option value="C:/gradle-2.3/lib/plugins/gradle-osgi-2.3.jar" />
+                  <option value="C:/gradle-2.3/lib/plugins/gradle-platform-base-2.3.jar" />
+                  <option value="C:/gradle-2.3/lib/plugins/gradle-platform-jvm-2.3.jar" />
+                  <option value="C:/gradle-2.3/lib/plugins/gradle-platform-native-2.3.jar" />
+                  <option value="C:/gradle-2.3/lib/plugins/gradle-platform-play-2.3.jar" />
+                  <option value="C:/gradle-2.3/lib/plugins/gradle-plugin-development-2.3.jar" />
+                  <option value="C:/gradle-2.3/lib/plugins/gradle-plugin-use-2.3.jar" />
+                  <option value="C:/gradle-2.3/lib/plugins/gradle-plugins-2.3.jar" />
+                  <option value="C:/gradle-2.3/lib/plugins/gradle-publish-2.3.jar" />
+                  <option value="C:/gradle-2.3/lib/plugins/gradle-reporting-2.3.jar" />
+                  <option value="C:/gradle-2.3/lib/plugins/gradle-resources-http-2.3.jar" />
+                  <option value="C:/gradle-2.3/lib/plugins/gradle-scala-2.3.jar" />
+                  <option value="C:/gradle-2.3/lib/plugins/gradle-signing-2.3.jar" />
+                  <option value="C:/gradle-2.3/lib/plugins/gradle-sonar-2.3.jar" />
+                  <option value="C:/gradle-2.3/lib/plugins/ivy-2.2.0.jar" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
                 </list>
@@ -436,8 +499,15 @@
         <option value="$PROJECT_DIR$/src/main/java/me/stuartdouglas/app/Main.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/me/stuartdouglas/app/Contact.java" />
-        <option value="$PROJECT_DIR$/src/test/java/MainTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/stuartdouglas/app/Hello.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Contact.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Index.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DbConnection.java" />
+        <option value="$PROJECT_DIR$/gradle.properties" />
+        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/me/stuartdouglas/app/DbConnection.java" />
+        <option value="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+        <option value="$PROJECT_DIR$/src/test/java/MainTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/stuartdouglas/app/Index.java" />
       </list>
     </option>
@@ -452,6 +522,9 @@
         <option name="mavenHome" value="Bundled (Maven 3)" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
   </component>
   <component name="NamedScopeManager">
     <order />
@@ -490,6 +563,9 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -497,15 +573,9 @@
               <option name="myItemId" value="logicnow" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="logicnow" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="logicnow" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -515,88 +585,11 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="logicnow" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="logicnow" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="logicnow" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="logicnow" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="logicnow" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="logicnow" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="logicnow" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -619,35 +612,26 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
     <property name="FullScreen" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="js.buildTools.grunt.node_interpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="js.buildTools.grunt.grunt-cli.package" value="C:\Users\remon\AppData\Roaming\npm\node_modules\grunt-cli" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="junit.framework.TestCase" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Index">
-    <configuration default="false" name="Index" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="me.stuartdouglas.app.Index" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="logicnow" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.All in logicnow">
     <configuration default="false" name="build" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
       <module name="logicnow" />
       <setting name="path" value="file://$PROJECT_DIR$/build.gradle" />
@@ -661,25 +645,10 @@
         <option name="Make" enabled="false" />
       </method>
     </configuration>
-    <configuration default="false" name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="logicnow.jar" type="JarApplication" factoryName="JAR Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="logicnow" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/logicnow_jar/logicnow.jar" />
       <envs />
-      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -879,6 +848,7 @@
     </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/logicnow_jar/logicnow.jar" />
       <envs />
       <method />
     </configuration>
@@ -939,6 +909,13 @@
       <setting name="rowsRange" value="" />
       <method />
     </configuration>
+    <configuration default="true" type="js.build_tools.grunt" factoryName="Grunt.js">
+      <pass-parent-env-vars value="true" />
+      <force value="false" />
+      <verbose value="false" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
@@ -947,6 +924,39 @@
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
       <method />
+    </configuration>
+    <configuration default="false" name="Unnamed" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="me.stuartdouglas.app.Index" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="logicnow" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unnamed" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <method>
+        <option name="Gradle.BeforeRunTask" enabled="true" tasks="" externalProjectPath="$PROJECT_DIR$" vmOptions="" scriptParameters="" />
+      </method>
     </configuration>
     <configuration default="false" name="All in logicnow" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -971,17 +981,17 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.All in logicnow" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Index" />
-      <item index="2" class="java.lang.String" itemvalue="Groovy.build" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.MainTest" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Application.Unnamed" />
+      <item index="1" class="java.lang.String" itemvalue="Gradle.Unnamed" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.All in logicnow" />
+      <item index="3" class="java.lang.String" itemvalue="Groovy.build" />
+      <item index="4" class="java.lang.String" itemvalue="JAR Application.logicnow.jar" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.Index" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MainTest" />
-        <item index="2" class="java.lang.String" itemvalue="Groovy.build" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="JAR Application.logicnow.jar" />
+        <item index="1" class="java.lang.String" itemvalue="Groovy.build" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -1004,12 +1014,14 @@
       <workItem from="1428089707168" duration="3603000" />
       <workItem from="1428097766110" duration="41000" />
       <workItem from="1428327962336" duration="3906000" />
-      <workItem from="1428333274538" duration="11859000" />
+      <workItem from="1428333274538" duration="18642000" />
+      <workItem from="1428354436775" duration="5066000" />
+      <workItem from="1428413100246" duration="2606000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30012000" />
+    <option name="totallyTimeSpent" value="44467000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1017,17 +1029,17 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32792208" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32683983" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995737" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34415585" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3430736" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32792208" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.119936034" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1337953" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995737" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13646056" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1040,7 +1052,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39935064" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1070,16 +1082,185 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/MainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#870#871#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/me/stuartdouglas/app/Index.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="e#4077#4078#0" expanded="true" />
+            <element signature="e#4147#4148#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/stuartdouglas/app/DbConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3393#3394#0" expanded="true" />
-            <element signature="e#3463#3464#0" expanded="true" />
-            <element signature="e#3510#3511#0" expanded="true" />
-            <element signature="e#3562#3563#0" expanded="true" />
+            <marker date="1428358168093" expanded="true" signature="396:441" placeholder="select id, f..contact..." />
+            <marker date="1428358168093" expanded="true" signature="1478:1534" placeholder="select id, f..contact..." />
+            <marker date="1428358168093" expanded="true" signature="1478:1535" placeholder="select id, f..contact..." />
+            <marker date="1428358168093" expanded="true" signature="2480:2511" placeholder="update conta..." />
+            <marker date="1428358168093" expanded="true" signature="2480:2512" placeholder="update conta..." />
+            <marker date="1428358168093" expanded="true" signature="2480:2526" placeholder="update conta..." />
+            <marker date="1428358168093" expanded="true" signature="2480:2529" placeholder="update conta..." />
+            <marker date="1428358168093" expanded="true" signature="2480:2539" placeholder="update conta..." />
+            <marker date="1428358168093" expanded="true" signature="2480:2540" placeholder="update conta..." />
+            <marker date="1428358168093" expanded="true" signature="2480:2541" placeholder="update conta..." />
+            <marker date="1428358168093" expanded="true" signature="2480:2542" placeholder="update conta..." />
+            <marker date="1428358168093" expanded="true" signature="3295:3327" placeholder="DELETE FROM ..." />
+            <marker date="1428358168093" expanded="true" signature="4029:4067" placeholder="INSERT INTO ..." />
+            <marker date="1428358168093" expanded="true" signature="4029:4086" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradlew.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradlew">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#870#871#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/stuartdouglas/app/Index.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#4077#4078#0" expanded="true" />
+            <element signature="e#4147#4148#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Hello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/stuartdouglas/app/DbConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1428358168093" expanded="true" signature="396:441" placeholder="select id, f..contact..." />
+            <marker date="1428358168093" expanded="true" signature="1478:1534" placeholder="select id, f..contact..." />
+            <marker date="1428358168093" expanded="true" signature="1478:1535" placeholder="select id, f..contact..." />
+            <marker date="1428358168093" expanded="true" signature="2480:2511" placeholder="update conta..." />
+            <marker date="1428358168093" expanded="true" signature="2480:2512" placeholder="update conta..." />
+            <marker date="1428358168093" expanded="true" signature="2480:2526" placeholder="update conta..." />
+            <marker date="1428358168093" expanded="true" signature="2480:2529" placeholder="update conta..." />
+            <marker date="1428358168093" expanded="true" signature="2480:2539" placeholder="update conta..." />
+            <marker date="1428358168093" expanded="true" signature="2480:2540" placeholder="update conta..." />
+            <marker date="1428358168093" expanded="true" signature="2480:2541" placeholder="update conta..." />
+            <marker date="1428358168093" expanded="true" signature="2480:2542" placeholder="update conta..." />
+            <marker date="1428358168093" expanded="true" signature="3295:3327" placeholder="DELETE FROM ..." />
+            <marker date="1428358168093" expanded="true" signature="4029:4067" placeholder="INSERT INTO ..." />
+            <marker date="1428358168093" expanded="true" signature="4029:4086" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/stuartdouglas/app/Contact.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding>
+            <element signature="e#640#641#0" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#802#803#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="50" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/stuartdouglas/app/Index.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#4077#4078#0" expanded="true" />
+            <element signature="e#4147#4148#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1090,22 +1271,20 @@
           <caret line="64" column="23" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-            <marker date="1428345697741" expanded="true" signature="516:561" placeholder="select id, f..contact..." />
-            <marker date="1428345697741" expanded="true" signature="1598:1654" placeholder="select id, f..contact..." />
-            <marker date="1428345697741" expanded="true" signature="1598:1655" placeholder="select id, f..contact..." />
-            <marker date="1428345697741" expanded="true" signature="2600:2631" placeholder="update conta..." />
-            <marker date="1428345697741" expanded="true" signature="2600:2632" placeholder="update conta..." />
-            <marker date="1428345697741" expanded="true" signature="2600:2646" placeholder="update conta..." />
-            <marker date="1428345697741" expanded="true" signature="2600:2649" placeholder="update conta..." />
-            <marker date="1428345697741" expanded="true" signature="2600:2659" placeholder="update conta..." />
-            <marker date="1428345697741" expanded="true" signature="2600:2660" placeholder="update conta..." />
-            <marker date="1428345697741" expanded="true" signature="2600:2661" placeholder="update conta..." />
-            <marker date="1428345697741" expanded="true" signature="2600:2662" placeholder="update conta..." />
-            <marker date="1428345697741" expanded="true" signature="3415:3447" placeholder="DELETE FROM ..." />
-            <marker date="1428345697741" expanded="true" signature="4149:4187" placeholder="INSERT INTO ..." />
-            <marker date="1428345697741" expanded="true" signature="4149:4206" placeholder="INSERT INTO ..." />
+            <marker date="1428358168093" expanded="true" signature="396:441" placeholder="select id, f..contact..." />
+            <marker date="1428358168093" expanded="true" signature="1478:1534" placeholder="select id, f..contact..." />
+            <marker date="1428358168093" expanded="true" signature="1478:1535" placeholder="select id, f..contact..." />
+            <marker date="1428358168093" expanded="true" signature="2480:2511" placeholder="update conta..." />
+            <marker date="1428358168093" expanded="true" signature="2480:2512" placeholder="update conta..." />
+            <marker date="1428358168093" expanded="true" signature="2480:2526" placeholder="update conta..." />
+            <marker date="1428358168093" expanded="true" signature="2480:2529" placeholder="update conta..." />
+            <marker date="1428358168093" expanded="true" signature="2480:2539" placeholder="update conta..." />
+            <marker date="1428358168093" expanded="true" signature="2480:2540" placeholder="update conta..." />
+            <marker date="1428358168093" expanded="true" signature="2480:2541" placeholder="update conta..." />
+            <marker date="1428358168093" expanded="true" signature="2480:2542" placeholder="update conta..." />
+            <marker date="1428358168093" expanded="true" signature="3295:3327" placeholder="DELETE FROM ..." />
+            <marker date="1428358168093" expanded="true" signature="4029:4067" placeholder="INSERT INTO ..." />
+            <marker date="1428358168093" expanded="true" signature="4029:4086" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -1116,12 +1295,8 @@
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#895#896#0" expanded="true" />
-            <element signature="e#965#966#0" expanded="true" />
-            <element signature="e#1622#1623#0" expanded="true" />
-            <element signature="e#1688#1689#0" expanded="true" />
-            <element signature="e#1735#1736#0" expanded="true" />
-            <element signature="e#1804#1805#0" expanded="true" />
+            <element signature="e#870#871#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1131,10 +1306,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding>
-            <element signature="e#712#713#0" expanded="true" />
-            <element signature="e#792#793#0" expanded="true" />
-            <element signature="e#823#824#0" expanded="true" />
-            <element signature="e#874#875#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#802#803#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1143,7 +1318,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="50" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1160,11 +1334,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3393#3394#0" expanded="true" />
-            <element signature="e#3463#3464#0" expanded="true" />
-            <element signature="e#3510#3511#0" expanded="true" />
-            <element signature="e#3562#3563#0" expanded="true" />
+            <element signature="e#4077#4078#0" expanded="true" />
+            <element signature="e#4147#4148#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1175,12 +1346,8 @@
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#895#896#0" expanded="true" />
-            <element signature="e#965#966#0" expanded="true" />
-            <element signature="e#1622#1623#0" expanded="true" />
-            <element signature="e#1688#1689#0" expanded="true" />
-            <element signature="e#1735#1736#0" expanded="true" />
-            <element signature="e#1804#1805#0" expanded="true" />
+            <element signature="e#870#871#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1190,10 +1357,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
           <folding>
-            <element signature="e#712#713#0" expanded="true" />
-            <element signature="e#792#793#0" expanded="true" />
-            <element signature="e#823#824#0" expanded="true" />
-            <element signature="e#874#875#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#802#803#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1211,11 +1378,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3393#3394#0" expanded="true" />
-            <element signature="e#3463#3464#0" expanded="true" />
-            <element signature="e#3510#3511#0" expanded="true" />
-            <element signature="e#3562#3563#0" expanded="true" />
+            <element signature="e#4077#4078#0" expanded="true" />
+            <element signature="e#4147#4148#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1226,12 +1390,8 @@
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#895#896#0" expanded="true" />
-            <element signature="e#965#966#0" expanded="true" />
-            <element signature="e#1622#1623#0" expanded="true" />
-            <element signature="e#1688#1689#0" expanded="true" />
-            <element signature="e#1735#1736#0" expanded="true" />
-            <element signature="e#1804#1805#0" expanded="true" />
+            <element signature="e#870#871#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1241,10 +1401,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
           <folding>
-            <element signature="e#712#713#0" expanded="true" />
-            <element signature="e#792#793#0" expanded="true" />
-            <element signature="e#823#824#0" expanded="true" />
-            <element signature="e#874#875#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#802#803#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1262,11 +1422,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3393#3394#0" expanded="true" />
-            <element signature="e#3463#3464#0" expanded="true" />
-            <element signature="e#3510#3511#0" expanded="true" />
-            <element signature="e#3562#3563#0" expanded="true" />
+            <element signature="e#4077#4078#0" expanded="true" />
+            <element signature="e#4147#4148#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1277,12 +1434,8 @@
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#895#896#0" expanded="true" />
-            <element signature="e#965#966#0" expanded="true" />
-            <element signature="e#1622#1623#0" expanded="true" />
-            <element signature="e#1688#1689#0" expanded="true" />
-            <element signature="e#1735#1736#0" expanded="true" />
-            <element signature="e#1804#1805#0" expanded="true" />
+            <element signature="e#870#871#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1292,10 +1445,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
-            <element signature="e#712#713#0" expanded="true" />
-            <element signature="e#792#793#0" expanded="true" />
-            <element signature="e#823#824#0" expanded="true" />
-            <element signature="e#874#875#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#802#803#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1313,11 +1466,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="106" column="6" selection-start-line="106" selection-start-column="6" selection-end-line="108" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3393#3394#0" expanded="true" />
-            <element signature="e#3463#3464#0" expanded="true" />
-            <element signature="e#3510#3511#0" expanded="true" />
-            <element signature="e#3562#3563#0" expanded="true" />
+            <element signature="e#4077#4078#0" expanded="true" />
+            <element signature="e#4147#4148#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1328,12 +1478,8 @@
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#895#896#0" expanded="true" />
-            <element signature="e#965#966#0" expanded="true" />
-            <element signature="e#1622#1623#0" expanded="true" />
-            <element signature="e#1688#1689#0" expanded="true" />
-            <element signature="e#1735#1736#0" expanded="true" />
-            <element signature="e#1804#1805#0" expanded="true" />
+            <element signature="e#870#871#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1343,10 +1489,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
-            <element signature="e#712#713#0" expanded="true" />
-            <element signature="e#792#793#0" expanded="true" />
-            <element signature="e#823#824#0" expanded="true" />
-            <element signature="e#874#875#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#802#803#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1356,20 +1502,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradlew">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradlew.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1380,44 +1512,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Hello.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/stuartdouglas/app/Contact.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding>
+            <element signature="e#640#641#0" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#802#803#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="50" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
-          <folding />
+        <state vertical-scroll-proportion="-0.7586207">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
         </state>
       </provider>
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MainTest.java">
+    <entry file="file://$PROJECT_DIR$/gradlew.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logicnow.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7048904">
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="62" column="25" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#895#896#0" expanded="true" />
-            <element signature="e#965#966#0" expanded="true" />
-            <element signature="e#1622#1623#0" expanded="true" />
-            <element signature="e#1688#1689#0" expanded="true" />
-            <element signature="e#1735#1736#0" expanded="true" />
-            <element signature="e#1804#1805#0" expanded="true" />
-          </folding>
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradlew">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1425,58 +1592,141 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/me/stuartdouglas/app/DbConnection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="161" column="19" selection-start-line="161" selection-start-column="19" selection-end-line="161" selection-end-column="19" />
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-            <marker date="1428345697741" expanded="true" signature="516:561" placeholder="select id, f..contact..." />
-            <marker date="1428345697741" expanded="true" signature="1598:1654" placeholder="select id, f..contact..." />
-            <marker date="1428345697741" expanded="true" signature="1598:1655" placeholder="select id, f..contact..." />
-            <marker date="1428345697741" expanded="true" signature="2600:2631" placeholder="update conta..." />
-            <marker date="1428345697741" expanded="true" signature="2600:2632" placeholder="update conta..." />
-            <marker date="1428345697741" expanded="true" signature="2600:2646" placeholder="update conta..." />
-            <marker date="1428345697741" expanded="true" signature="2600:2649" placeholder="update conta..." />
-            <marker date="1428345697741" expanded="true" signature="2600:2659" placeholder="update conta..." />
-            <marker date="1428345697741" expanded="true" signature="2600:2660" placeholder="update conta..." />
-            <marker date="1428345697741" expanded="true" signature="2600:2661" placeholder="update conta..." />
-            <marker date="1428345697741" expanded="true" signature="2600:2662" placeholder="update conta..." />
-            <marker date="1428345697741" expanded="true" signature="3415:3447" placeholder="DELETE FROM ..." />
-            <marker date="1428345697741" expanded="true" signature="4149:4187" placeholder="INSERT INTO ..." />
-            <marker date="1428345697741" expanded="true" signature="4149:4206" placeholder="INSERT INTO ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/stuartdouglas/app/Contact.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-          <folding>
-            <element signature="e#712#713#0" expanded="true" />
-            <element signature="e#792#793#0" expanded="true" />
-            <element signature="e#823#824#0" expanded="true" />
-            <element signature="e#874#875#0" expanded="true" />
+            <marker date="1428358168093" expanded="true" signature="396:441" placeholder="select id, f..contact..." />
+            <marker date="1428358168093" expanded="true" signature="1478:1534" placeholder="select id, f..contact..." />
+            <marker date="1428358168093" expanded="true" signature="1478:1535" placeholder="select id, f..contact..." />
+            <marker date="1428358168093" expanded="true" signature="2480:2511" placeholder="update conta..." />
+            <marker date="1428358168093" expanded="true" signature="2480:2512" placeholder="update conta..." />
+            <marker date="1428358168093" expanded="true" signature="2480:2526" placeholder="update conta..." />
+            <marker date="1428358168093" expanded="true" signature="2480:2529" placeholder="update conta..." />
+            <marker date="1428358168093" expanded="true" signature="2480:2539" placeholder="update conta..." />
+            <marker date="1428358168093" expanded="true" signature="2480:2540" placeholder="update conta..." />
+            <marker date="1428358168093" expanded="true" signature="2480:2541" placeholder="update conta..." />
+            <marker date="1428358168093" expanded="true" signature="2480:2542" placeholder="update conta..." />
+            <marker date="1428358168093" expanded="true" signature="3295:3327" placeholder="DELETE FROM ..." />
+            <marker date="1428358168093" expanded="true" signature="4029:4067" placeholder="INSERT INTO ..." />
+            <marker date="1428358168093" expanded="true" signature="4029:4086" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/me/stuartdouglas/app/Index.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7716263">
-          <caret line="115" column="63" selection-start-line="115" selection-start-column="63" selection-end-line="115" selection-end-column="63" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="135" column="5" selection-start-line="135" selection-start-column="5" selection-end-line="135" selection-end-column="5" />
+          <folding>
+            <element signature="e#4077#4078#0" expanded="true" />
+            <element signature="e#4147#4148#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34196892">
+          <caret line="51" column="34" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3393#3394#0" expanded="true" />
-            <element signature="e#3463#3464#0" expanded="true" />
-            <element signature="e#3510#3511#0" expanded="true" />
-            <element signature="e#3562#3563#0" expanded="true" />
+            <element signature="e#870#871#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
   </component>
   <component name="gradleExecuteTaskHistory">
-    <option value="" />
+    <option value="$PROJECT_DIR$" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>logicnow:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>logicnow</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Gradle: junit:junit:4.11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

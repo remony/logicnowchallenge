@@ -3,20 +3,12 @@ package me.stuartdouglas.app;
 import java.sql.*;
 import java.util.LinkedList;
 
-/**
- * Created by remon on 06/04/2015.
- */
+
+
 public class DbConnection {
 
-
-    public static LinkedList getAllContacts()  {
-        return getAllContactsDB();
-    }
-
-
-
-    private static LinkedList getAllContactsDB() {
-        LinkedList<Contact> contacts = new LinkedList();
+    public static LinkedList<Contact> getAllContacts() {
+        LinkedList<Contact> contacts = new LinkedList<Contact>();
         Connection connection = null;
 
         try {
