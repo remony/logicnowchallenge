@@ -4,21 +4,23 @@ public class Contact {
     private String firstName = null;
     private String lastName = null;
     private int id;
-    public Contact(){}
 
-    public String getFirstName()  {
+    public Contact() {
+    }
+
+    public String getFirstName() {
         return this.firstName;
     }
 
-    public void setFirstName(String firstName)    {
+    public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
 
-    public String getLastName()  {
+    public String getLastName() {
         return this.lastName;
     }
 
-    public void setLastName(String lastName)    {
+    public void setLastName(String lastName) {
         this.lastName = lastName;
     }
 
@@ -31,11 +33,11 @@ public class Contact {
         this.id = id;
     }
 
-    public void save()  {
+    public void save() {
         DbConnection.saveContact(this.id, this.firstName, this.lastName);
     }
 
-    public void delete()    {
+    public void delete() {
         DbConnection.deleteContact(this.id);
     }
 }

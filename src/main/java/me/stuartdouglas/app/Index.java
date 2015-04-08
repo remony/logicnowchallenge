@@ -4,15 +4,15 @@ import java.util.*;
 
 public class Index extends DbConnection {
 
-    public static void main(String[] args)   {
+    public static void main(String[] args) {
         Index index = new Index();
         index.run();
     }
 
 
     //Main menu loop
-    private void run()    {
-        while(true) {
+    private void run() {
+        while (true) {
             int choice = 0;
             Scanner input = new Scanner(System.in);
             while (choice != 3) {
@@ -43,21 +43,19 @@ public class Index extends DbConnection {
         String lastName = null;
 
         Scanner input = new Scanner(System.in);
-        while (!validInput(firstName))
-        {
+        while (!validInput(firstName)) {
             System.out.print("\nFirst name: ");
             firstName = input.nextLine();
         }
 
-        while (!validInput(lastName))    {
+        while (!validInput(lastName)) {
             System.out.print("\nLast name: ");
             lastName = input.nextLine();
         }
 
-        if (validInput(firstName))
-        {
+        if (validInput(firstName)) {
             createContact(firstName, lastName);
-        }   else    {
+        } else {
             System.out.println("something was empty");
         }
     }
@@ -86,14 +84,14 @@ public class Index extends DbConnection {
                     case 1:
                         System.out.print("\nFirst name [" + contact.getFirstName() + "]: ");
                         firstname = input.nextLine();
-                        if (validInput(firstname))  {
+                        if (validInput(firstname)) {
                             contact.setFirstName(firstname);
                         }
                         break;
                     case 2:
                         System.out.print("\nLast name [" + contact.getLastName() + "]: ");
                         lastname = input.nextLine();
-                        if(validInput(lastname))    {
+                        if (validInput(lastname)) {
                             contact.setLastName(lastname);
                         }
                         break;
@@ -112,31 +110,29 @@ public class Index extends DbConnection {
                         break;
                 }
             }
-        }   else    {
+        } else {
             System.out.println("ID " + id + " does not exist");
         }
 
     }
 
     //Checks if the contact is valid
-    public boolean checkIfContactExists(int id)   {
+    public boolean checkIfContactExists(int id) {
         Contact contact = getContact(id);
 
-        if(!validInput(contact.getFirstName()))  {
+        if (!validInput(contact.getFirstName())) {
             return false;
         }
-        if (!validInput(contact.getLastName()))  {
-            return false;
-        }
-        return true;
+        return validInput(contact.getLastName());
     }
+
     //Returns true if the value is not empty or contains just spaces
     public boolean validInput(String input) {
-        return  !(input == null || input.trim().length() == 0);
+        return !(input == null || input.trim().length() == 0);
     }
 
     //displays a list of given contacys
-    private void displayContacts(LinkedList<Contact> contacts)  {
+    private void displayContacts(LinkedList<Contact> contacts) {
         ListIterator<Contact> listIterator = contacts.listIterator();
         System.out.println("There is " + contacts.size() + " contacts");
         while (listIterator.hasNext()) {
@@ -146,7 +142,7 @@ public class Index extends DbConnection {
     }
 
     //Displays a single contact
-    private void displayContact(Contact contact)   {
-        System.out.println("First name: " + contact.getFirstName()+ "\nLast name: " + contact.getLastName());
+    private void displayContact(Contact contact) {
+        System.out.println("First name: " + contact.getFirstName() + "\nLast name: " + contact.getLastName());
     }
 }

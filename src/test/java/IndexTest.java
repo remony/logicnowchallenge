@@ -5,30 +5,22 @@ import me.stuartdouglas.app.Index;
 
 import java.util.ListIterator;
 
-public class MainTest extends TestCase {
-
-    public void testReadAll() throws Exception {
-
-
-
-
-    }
-
+public class IndexTest extends TestCase {
 
     //if the first name or last name are empty the test should not pass
-    public void testValidInput() throws Exception   {
+    public void testValidInput() throws Exception {
         Index index = new Index();
 
         assertTrue(index.validInput("John"));
 
     }
 
-    public void testInvalidInput() throws Exception   {
+    public void testInvalidInput() throws Exception {
         Index index = new Index();
         assertFalse(index.validInput(""));
     }
 
-    public void testInvalidInput2() throws Exception   {
+    public void testInvalidInput2() throws Exception {
         Index index = new Index();
         assertFalse(index.validInput("     "));
     }
@@ -45,7 +37,6 @@ public class MainTest extends TestCase {
     }
 
 
-
     //checks if all the contacts in the database have true values
     public void testGetContactsValidInfo() {
         ListIterator<Contact> listIterator = DbConnection.getAllContacts().listIterator();
@@ -55,14 +46,13 @@ public class MainTest extends TestCase {
         }
     }
 
-    public void testDatabaseConnection()    {
+    public void testDatabaseConnection() {
         assertTrue(DbConnection.getDBConnection() != null);
     }
 
-    public void testDatabaseAddContact()    {
+    public void testDatabaseAddContact() {
         assertTrue(DbConnection.createContact("John", "Doe"));
     }
-
 
 
 }

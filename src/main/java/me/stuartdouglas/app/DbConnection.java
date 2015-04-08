@@ -4,7 +4,6 @@ import java.sql.*;
 import java.util.LinkedList;
 
 
-
 public class DbConnection {
 
     public static LinkedList<Contact> getAllContacts() {
@@ -17,7 +16,7 @@ public class DbConnection {
             PreparedStatement ps = connection.prepareStatement("select id, first_name, last_name from contact");
 
             ResultSet rs = ps.executeQuery();
-            while(rs.next()) {
+            while (rs.next()) {
                 Contact contact = new Contact();
                 contact.setFirstName(rs.getString("first_name"));
                 contact.setLastName(rs.getString("last_name"));
@@ -26,14 +25,14 @@ public class DbConnection {
             }
 
 
-        }   catch (SQLException e)  {
+        } catch (SQLException e) {
             System.err.println(e.getMessage());
-        }   finally {
+        } finally {
             try {
                 if (connection != null) {
                     connection.close();
                 }
-            }   catch (SQLException e)  {
+            } catch (SQLException e) {
                 //failed to close connection
                 System.err.println(e.getMessage());
             }
@@ -53,21 +52,21 @@ public class DbConnection {
             PreparedStatement ps = connection.prepareStatement("select id, first_name, last_name from contact where id = " + id);
 
             ResultSet rs = ps.executeQuery();
-            while(rs.next()) {
+            while (rs.next()) {
                 contact.setFirstName(rs.getString("first_name"));
                 contact.setLastName(rs.getString("last_name"));
                 contact.setId(rs.getInt("id"));
             }
 
 
-        }   catch (SQLException e)  {
+        } catch (SQLException e) {
             System.err.println(e.getMessage());
-        }   finally {
+        } finally {
             try {
                 if (connection != null) {
                     connection.close();
                 }
-            }   catch (SQLException e)  {
+            } catch (SQLException e) {
                 //failed to close connection
                 System.err.println(e.getMessage());
             }
@@ -77,6 +76,8 @@ public class DbConnection {
         return contact;
     }
 
+
+    //Saves the contact to the database by updating it using the id
     public static void saveContact(int id, String firstName, String lastName) {
         Connection connection = null;
 
@@ -88,14 +89,14 @@ public class DbConnection {
             ps.setString(2, lastName);
             ps.setInt(3, id);
             ps.executeUpdate();
-        }   catch (SQLException e)  {
+        } catch (SQLException e) {
             System.err.println(e.getMessage());
-        }   finally {
+        } finally {
             try {
                 if (connection != null) {
                     connection.close();
                 }
-            }   catch (SQLException e)  {
+            } catch (SQLException e) {
                 //failed to close connection
                 System.err.println(e.getMessage());
             }
@@ -104,7 +105,8 @@ public class DbConnection {
 
     }
 
-    public static void deleteContact(int id)    {
+
+    public static void deleteContact(int id) {
         Connection connection = null;
         try {
             connection = getDBConnection();
@@ -112,14 +114,14 @@ public class DbConnection {
             PreparedStatement ps = connection.prepareStatement("DELETE FROM contact WHERE id = ?");
             ps.setInt(1, id);
             ps.executeUpdate();
-        }   catch (SQLException e)  {
+        } catch (SQLException e) {
             System.err.println(e.getMessage());
-        }   finally {
+        } finally {
             try {
                 if (connection != null) {
                     connection.close();
                 }
-            }   catch (SQLException e)  {
+            } catch (SQLException e) {
                 //failed to close connection
                 System.err.println(e.getMessage());
             }
@@ -137,15 +139,15 @@ public class DbConnection {
             ps.setString(1, firstName);
             ps.setString(2, lastName);
             ps.executeUpdate();
-        }   catch (SQLException e)  {
+        } catch (SQLException e) {
             System.err.println(e.getMessage());
             return false;
-        }   finally {
+        } finally {
             try {
                 if (connection != null) {
                     connection.close();
                 }
-            }   catch (SQLException e)  {
+            } catch (SQLException e) {
                 //failed to close connection
                 System.err.println(e.getMessage());
             }
@@ -155,12 +157,11 @@ public class DbConnection {
     }
 
 
-
-    public static Connection getDBConnection()   {
+    public static Connection getDBConnection() {
         Connection connection = null;
         try {
             connection = DriverManager.getConnection("jdbc:sqlite:database");
-        }   catch (SQLException e)  {
+        } catch (SQLException e) {
             System.err.println(e.getMessage());
         }
 
