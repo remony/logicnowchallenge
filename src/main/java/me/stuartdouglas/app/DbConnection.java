@@ -49,8 +49,8 @@ public class DbConnection {
         try {
             connection = getDBConnection();
 
-            PreparedStatement ps = connection.prepareStatement("select id, first_name, last_name from contact where id = " + id);
-
+            PreparedStatement ps = connection.prepareStatement("select id, first_name, last_name from contact where id = ?");
+            ps.setInt(1, id);
             ResultSet rs = ps.executeQuery();
             while (rs.next()) {
                 contact.setFirstName(rs.getString("first_name"));
