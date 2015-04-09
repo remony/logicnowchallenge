@@ -1,7 +1,7 @@
 import junit.framework.TestCase;
 
 
-public class ExerciseTwoTests extends TestCase {
+public class ExerciseOneTests extends TestCase {
     /*String[] op = new String[]{"mount", "testDB"};
     //Check that there is 2 arguments
     public void testCheckForArguments() {
